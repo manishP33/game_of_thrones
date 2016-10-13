@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  region: MyString
+  religion: MyString
+  age: 
+  img_url: MyString
+  founder: MyString
+  weapon: MyString
+
+two:
+  name: MyString
+  region: MyString
+  religion: MyString
+  age: 
+  img_url: MyString
+  founder: MyString
+  weapon: MyString

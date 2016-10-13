@@ -2,7 +2,10 @@
 <% @characters.each do |character| %>
 <div id="charName">
   <%= link_to character.name %>
+  <h3>Religion: <%= character.religion %></h3>
+    <h3>Age: <%= character.age %></h3>
+    <h3>Culture: <%= character.culture %></h3>
 
-</div>
 <img src="<%= character.img_url %>">
+</div>
 <% end %>

@@ -1,5 +1,6 @@
 body {
 text-align: center;
+background-color: #FFA07A;
 }
 
 .house {
@@ -17,10 +18,9 @@ img#logo{
 }
 #charName {
   background-color: yellow;
-  border: 2px solid grey;
+  border: 8px double grey;
   border-radius: 50%;
   text-align: center;
-height: 50px;
 margin-top: 60px;
 font-weight: bold;
 font-size: 30px;

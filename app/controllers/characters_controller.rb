@@ -14,6 +14,13 @@ class CharactersController < ApplicationController
   end
 
   def create
-
+    @character = Character.create(character_params)
+    redirect_to characters_path(@character)
   end
-end
+
+  def update
+   @character = Character.find(params[:id])
+   @character.update(user_params)
+   redirect_to characters_path(@character)
+  end
+  end

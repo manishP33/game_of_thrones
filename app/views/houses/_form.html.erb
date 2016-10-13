@@ -1,0 +1,21 @@
+<%= form_for @house.new do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :religion %>
+  <%= f.text_field :religion %>
+
+  <%= f.label :age %>
+  <%= f.text_field :age %>
+
+  <%= f.label :img_url %>
+  <%= f.text_field :img_url %>
+
+  <%= f.label :founder %>
+  <%= f.text_field :founder %>
+
+  <%= f.label :weapon %>
+  <%= f.text_field :weapon %>
+
+  <%= f.submit %>
+<% end %>

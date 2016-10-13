@@ -10,6 +10,11 @@
 
   <body>
     <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Logo_Game_of_Thrones.png"/>
+
+  <nav>
+  <h1><%= link_to "Houses", houses_path %> | <%= link_to "Characters", characters_path %></h1>
+  </nav>
+
     <%= yield %>
   </body>
 </html>

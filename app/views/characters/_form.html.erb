@@ -1,0 +1,18 @@
+%= form_for @character.new do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :religion %>
+  <%= f.text_field :religion %>
+
+  <%= f.label :age %>
+  <%= f.text_field :age %>
+
+  <%= f.label :img_url %>
+  <%= f.text_field :img_url %>
+
+  <%= f.label :culture %>
+  <%= f.text_field :culture %>
+
+  <%= f.submit %>
+<% end %>

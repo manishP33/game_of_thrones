@@ -1,10 +1,8 @@
 <h1><%= @character.name %></h1>
-<% @character.houses.each do |house| %>
-<div class="char">
-  <h2><%= link_to house.name, house_path(@character) %></h2>
-  <%= image_tag house.img_url %>
-</div>
 
-<%= link_to "Edit", edit_character_path(@character, house) %>
-      <%= link_to "Delete", character_path(@character, house), method: :delete%>
-<% end %>
+
+  <%= image_tag @character.img_url %>
+
+
+<%= link_to "Edit", edit_character_path(@character, @house) %>
+      <%= link_to "Delete", character_path(@character, @house), method: :delete%>
